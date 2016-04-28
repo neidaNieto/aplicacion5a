@@ -1,0 +1,169 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+<!--gripo css-->
+<link rel="stylesheet" href="css/app5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/2.jpg','imagenes/problemas.jpg','imagenes/images.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>DIA DE LA TIERRA</h1>
+   </div>
+   
+   
+   <!--visor-->
+   
+   <!-- Start WOWSlider.com -->
+<iframe src="visor/index.html" style="width:960px;height:100px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>EN QUE CONSISTE EL DIA DE LA TIERRA</h1>
+          <div>
+          <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril se instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra.</p>
+          <br>
+          </div>
+      <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/2.jpg',1)"><img src="imagenes/3.jpg" width="240" height="240" id="Image22"></a> </div>
+      </div>
+  </div>
+  
+  
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>Reflexión</h1>
+          <div>
+          <p>Todos absolutamente todos tenemos un lugar en donde vivir el cual de sierta manera no quiere pero realmente nosotros le tenemos el cariño que el a nosotros a jusgar por las acciones que nosotros hacemos dia con dia yo creo que no, debemos aprender a utilizar las cosas bien y no exedernos en los recursos que nos da la naturaleza ya es tiempo de que concientizemos basta de malas acciones poco a poco podemos ayudar a nuestro mundo dia a dia no tirando basura cuidar los recursos que se encuentran cerca de casa aciendo campañas de resiclaje empezando por nuestras casas todo se puede!!!! </p>
+          <br>
+          </div>
+      </div>
+  </div>
+  
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>IMPACTO EN EL MEDIO AMBIENTE A CAUSA DEL HUMANO</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>CAMBIOS POSITOVOS QUE TODOS DEBEMOS HACER</h2>
+       </a>
+     </li> 
+    </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a"> 
+   <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicacion 5</h4>
+    <h4>DIA DE LA TIERRA</h4>
+    <h4>Neida Fernanda Nieto Auroza</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>IMPACTO EN EL MEDIO AMBIENTE A CAUSA DEL HUMANO</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+       <h2>Los
+productos que empleamos en nuestra vida diaria provienen de la explotación de los recursos
+naturales de muchos de los ecosistemas del planeta.Los alimentos que consumimos, la madera que empleamos para la construcción, los muebles o el papel, los plásticos que envuelven los artículos de la vida moderna, o los químicos que se empleanen la industria, agricultura o el hogar, todos dealguna manera están relacionados con ligeras perturbaciones o severos daños al ambiente. No esexagerado decir que nuestro planeta ha cambiado,
+y en muchos casos de manera irreversible, con la expansión y el desarrollo de nuestra civilización  <p><a href="https://www.youtube.com/watch?v=-ui4Aa3EpKE">**màs informacion aqui**</a></p> </h2>
+         <div>        
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/problemas.jpg',1)"><img src="imagenes/Impacto.jpg" width="240" height="240" id="Image12"></a> </div>
+    </div>
+   </div>
+  <div data-role="footer" align="center" data-theme="a"> 
+   <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicacion 5</h4>
+    <h4>DIA DE LA TIERRA</h4>
+    <h4>Neida Fernanda Nieto Auroza</h4>
+   </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>CAMBIOS POSITIVOS QUE DEBEMOS HACER PARA CUIDAR EL PLANETA</h1>
+</div>
+<div data-role="content" align="center">
+   <div>
+     <h2>Consejos para cuidar el medio ambiente.-
+
+1.- Antes de comprar un producto, hazte la pregunta si realmente lo necesitas. Cualquier consumo innecesario es en esencia antiecológico y antieconómico, ¿no lo crees?.
+
+2.- Sé crítico con la publicidad. Mira las cualidades de los productos, no los sueños que te venden en la publicidad muchas veces engañosa.
+
+3.- Antes de tirar cualquier cosa a la basura, piensa si se puede reutilizar, reciclar o reparar, o si puede ser útil para otra persona.
+
+4.- Evita las latas de bebidas, vale más el envase que su contenido y apenas se recuperan. La energía necesaria para producir y transportar una lata equivale a la mitad del bote lleno de petróleo.
+
+5.- La energía que producen las pilas es más de 600 veces más cara que la de la red. Conecta los aparatos a la red siempre que esto sea posible. Si te es imprescindible usar pilas (nunca tires las usadas a la basura), procura que sean recargables.
+
+6.- Desconecta los aparatos eléctricos de la red cuando no están funcionando. Algunos aparatos (como televisores) siguen gastando hasta un 33% de la energía.</h2>
+        <div>          
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/images.jpg',1)"><img src="imagenes/4.jpg" width="218" height="232" id="Image10"></a> </div>
+    </div>
+  </div>
+  
+<div data-role="footer" align="center" data-theme="a"> 
+   <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicacion 5</h4>
+    <h4>DIA DE LA TIERRA</h4>
+    <h4>Neida Fernanda Nieto Auroza</h4>
+   </div>
+</div>
+</div>
+
+
+
+    
+</body>
+</html>
